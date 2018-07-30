@@ -1,0 +1,27 @@
+div#videoDiv{
+	position: relative;
+	left: 22px;
+}
+
+.videoBackground{
+	background-color: black; 
+/*	border: 1px solid #4280e6;
+*/	border-radius: 10px;
+}
+
+article.col-lg-6.post-medium.main-large-post.videoBackground:hover{
+	cursor: pointer;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.5rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background: none;
+    transform: scale(1.1);
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:active {
+	background: none;
+}
