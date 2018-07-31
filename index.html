@@ -8,7 +8,7 @@
       <meta name="author" content="OrcasThemes">
       <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
       <link rel="icon" type="image/png" href="img/favicon.png" />
-      <title>VideoStreaming</title>
+      <title>VideoStreaming-Home</title>
       <!-- Bootstrap core CSS -->
       <link href="css/bootstrap.css" rel="stylesheet">
       <!-- Custom styles for this template -->
@@ -45,7 +45,7 @@
                   <div class="collapse navbar-collapse js-navbar-collapse megabg dropshd ">
                      <ul class="nav navbar-nav">
                         <li class="dropdown mega-dropdown">
-                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoStreaming
+                           <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VideoStreaming
                            </a>
                            
                         </li>
@@ -82,9 +82,11 @@
                            <article class="col-lg-6 post-medium main-large-post">
                               <div class="thumbr videoBackground">
                                  <div id="videoDiv">
-                                    <video
-                                    width="600" height="500" controls>
-                                      <source src="test2.mp4" type="video/mp4">
+                                    <video id="video"
+                                    width="600"
+                                    height="500"
+                                    controls>
+                                      <source src="jsPDF1.mp4" type="video/mp4">
                                       Your browser does not support HTML5 video.
                                     </video>
                                  </div>
@@ -253,17 +255,14 @@
                </section>
             </div>
             <!-- SIDEBAR begin-->
-            
             <!-- SIDEBAR end-->
 
          </div>
       </div>
       <!-- TABS begin-->
-      
       <!-- TABS end-->
 
       <!-- MAIN begin-->
-      
       <!-- MAIN end-->
 
       <!-- CHANNELS begin-->
@@ -273,7 +272,216 @@
                <!-- CHANNELS -->
                <section id="channels">
                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>categorie 1</h2>
+                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>sport</h2>
+                     <div class="carousel-control-box">
+                        <a class="left carousel-control" href="#myCarousel"  role="button" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                        <a class="right carousel-control" href="#myCarousel"  role="button" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                     </div>
+                     <!-- Wrapper for slides -->
+                     <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                           <div class="row auto-clear">
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="videos.html">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="videos.html">Tennis</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Football</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Rugby</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Natation</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Athlétisme</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Judo</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                           </div>
+                        </div>
+                        <div class="item">
+                           <div class="row">
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Karaté</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Rally</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Tennis de table</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Cyclisme</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Pétanque</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="col-lg-2 col-md-4 col-sm-4">
+                                 <div class="post post-medium">
+                                    <div class="thumbr">
+                                       <a class="post-thumb" href="#">
+                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
+                                       </a>
+                                    </div>
+                                    <div class="infor">
+                                       <h4>
+                                          <a class="title" href="#">Volley Ball</a>
+                                       </h4>
+                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
+                                    </div>
+                                 </div>
+                              </article>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+      </div>
+
+      <div id="channels-block" class="container-fluid channels-bg">
+         <div class="container-fluid ">
+            <div class="col-md-12">
+               <!-- CHANNELS -->
+               <section id="channels">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>cinema</h2>
                      <div class="carousel-control-box">
                         <a class="left carousel-control" href="#myCarousel"  role="button" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
                         <a class="right carousel-control" href="#myCarousel"  role="button" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
@@ -482,216 +690,7 @@
                <!-- CHANNELS -->
                <section id="channels">
                   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>categorie 2</h2>
-                     <div class="carousel-control-box">
-                        <a class="left carousel-control" href="#myCarousel"  role="button" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-                        <a class="right carousel-control" href="#myCarousel"  role="button" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                     </div>
-                     <!-- Wrapper for slides -->
-                     <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                           <div class="row auto-clear">
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Fancy Channel Name</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Premium MakeUp Beauty Channel</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Private Golden CH</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">4K Quality Videos</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Japan Couture Video</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Burlesque French Movies</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                        </div>
-                        <div class="item">
-                           <div class="row">
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Fancy Channel Name</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Premium MakeUp Beauty Channel</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Private Golden CH</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">4K Quality Videos</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Japan Couture Video</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                              <article class="col-lg-2 col-md-4 col-sm-4">
-                                 <div class="post post-medium">
-                                    <div class="thumbr">
-                                       <a class="post-thumb" href="#">
-                                       <img class="img-responsive" src="img/channels/ch-1.jpg" alt="#">
-                                       </a>
-                                    </div>
-                                    <div class="infor">
-                                       <h4>
-                                          <a class="title" href="#">Burlesque French Movies</a>
-                                       </h4>
-                                       <span class="posts-channel" title="Posts from Channel"><i class="fa fa-video-camera" aria-hidden="true"></i>4000</span>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </section>
-               <div class="clearfix"></div>
-            </div>
-         </div>
-      </div>
-
-      <div id="channels-block" class="container-fluid channels-bg">
-         <div class="container-fluid ">
-            <div class="col-md-12">
-               <!-- CHANNELS -->
-               <section id="channels">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>categorie 3</h2>
+                     <h2 class="icon"><i class="fa fa-television" aria-hidden="true"></i>humour</h2>
                      <div class="carousel-control-box">
                         <a class="left carousel-control" href="#myCarousel"  role="button" data-slide="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
                         <a class="right carousel-control" href="#myCarousel"  role="button" data-slide="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>

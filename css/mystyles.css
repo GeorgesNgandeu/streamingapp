@@ -25,3 +25,7 @@ article.col-lg-6.post-medium.main-large-post.videoBackground:hover{
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:active {
 	background: none;
 }
+
+.category-spacing{
+	padding: 2rem;
+}
